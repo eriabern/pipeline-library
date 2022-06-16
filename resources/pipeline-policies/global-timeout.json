@@ -6,8 +6,8 @@
   "name" : "global-timeout",
   "rules" : [ {
     "$class" : "EntirePipelineTimeoutRule",
-    "maxTime" : 1,
-    "maxUnit" : "HOURS",
-    "properties" : "1 HOURS"
+    "maxTime" : 30,
+    "maxUnit" : "SECONDS",
+    "properties" : "30 SECONDS"
   } ]
 } ]
